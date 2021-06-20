@@ -4,11 +4,13 @@
     "outDir": "../out-tsc/spec",
     "types": [
       "node",
-      "jest"
-    ]
+      "jest",
+    ],
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "allowJs": true
   },
   "files": [
-    "test.ts",
     "polyfills.ts"
   ],
   "include": [
